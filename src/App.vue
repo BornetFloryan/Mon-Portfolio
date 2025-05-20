@@ -4,15 +4,6 @@
       <div class="logo">Mon Portfolio</div>
       <ul class="nav-links">
         <li><router-link to="/">Accueil</router-link></li>
-        <li class="dropdown"
-            @mouseover="showDropdown = true"
-            @mouseleave="showDropdown = false">
-          <a href="#" class="dropdown-toggle" @click.prevent>Compétences</a>
-          <ul class="dropdown-menu" v-show="showDropdown">
-            <li><router-link to="/competences#dev">Développement d'applications</router-link></li>
-            <li><router-link to="/competences#bdd">Gestion de bases de données</router-link></li>
-          </ul>
-        </li>
         <li><router-link to="/about">À propos</router-link></li>
         <li><router-link to="/contact">Contact</router-link></li>
       </ul>
@@ -32,6 +23,15 @@ export default {
 </script>
 
 <style>
+:root {
+  --main-color: #ff7f50;
+  --accent-color: #f7cac9;
+  --bg-light: #f5f8fa;
+  --card-bg: #ffffff;
+  --text-dark: #2c3e50;
+  --text-light: #555;
+  --skill-bg: #ffe5dd;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -52,7 +52,7 @@ export default {
 .logo {
   font-size: 1.7rem;
   font-weight: bold;
-  color: #42b983;
+  color: var(--main-color);
 }
 
 .nav-links {
@@ -78,7 +78,7 @@ export default {
 .nav-links a.router-link-exact-active,
 .nav-links a:hover,
 .dropdown-toggle:hover {
-  color: #42b983;
+  color: var(--main-color);
 }
 
 .dropdown-menu {

@@ -118,7 +118,7 @@
     </ul>
 
     <div class="cv-btn">
-      <a href="/cv.pdf" target="_blank">Télécharger mon CV</a>
+      <a href="https://export-download.canva.com/Jp6sM/DAF9aPJp6sM/178/0-2261273211421675276.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250520%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250520T092849Z&X-Amz-Expires=34459&X-Amz-Signature=a18dc128947c8a534630e81e8acae6b79663ddb99d1b060b8943cc38d61f1529&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27curriculum_vitae.pdf&response-expires=Tue%2C%2020%20May%202025%2019%3A03%3A08%20GMT" download>Télécharger mon CV</a>
     </div>
   </div>
 </template>
@@ -132,7 +132,7 @@
   font-size: 1.1rem;
 }
 .about h1 {
-  color: #42b983;
+  color: var(--main-color);
   margin-bottom: 24px;
 }
 .about-header {
@@ -146,7 +146,7 @@
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #42b983;
+  border: 3px solid var(--main-color);
 }
 .infos {
   list-style: none;
@@ -182,7 +182,7 @@
 }
 .cv-btn a {
   display: inline-block;
-  background: #42b983;
+  background: var(--main-color);
   color: #fff;
   padding: 12px 24px;
   border-radius: 8px;
@@ -191,7 +191,7 @@
   transition: background 0.2s;
 }
 .cv-btn a:hover {
-  background: #36996b;
+  background: var(--main-color);
 }
 .presentation {
   margin-bottom: 32px;
