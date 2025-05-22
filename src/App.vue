@@ -4,6 +4,7 @@
       <div class="logo">Mon Portfolio</div>
       <ul class="nav-links">
         <li><router-link to="/">Accueil</router-link></li>
+        <li><router-link to="/stages">Mes stages</router-link></li>
         <li><router-link to="/about">À propos</router-link></li>
         <li><router-link to="/contact">Contact</router-link></li>
       </ul>

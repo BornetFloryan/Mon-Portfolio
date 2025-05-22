@@ -5,6 +5,8 @@ import AboutView from '../views/AboutView.vue'
 import ContactView from '../views/ContactView.vue'
 import StagesView from '../views/StagesView.vue'
 import ClemessyView from '../views/ClemessyView.vue'
+import ClemessyUE41View from '@/views/ClemessyUE41View.vue'
+import ClemessyUE46View from '@/views/ClemessyUE46View.vue'
 
 Vue.use(VueRouter)
 
@@ -15,15 +17,24 @@ const routes = [
   {
     path: '/stages',
     name: 'stages',
-    component: StagesView,
-    children: [
-      {
-        path: 'clemessy',
-        name: 'clemessy',
-        component: ClemessyView
-      }
-    ]
+    component: StagesView
+  },
+  {
+    path: '/stages/clemessy',
+    name: 'clemessy',
+    component: ClemessyView
+  },
+  {
+    path: '/stages/clemessy/ue41',
+    name: 'clemessy-ue41',
+    component: ClemessyUE41View
+  },
+  {
+    path: '/stages/clemessy/ue46',
+    name: 'clemessy-ue46',
+    component: ClemessyUE46View
   }
+  
 ]
 
 const router = new VueRouter({

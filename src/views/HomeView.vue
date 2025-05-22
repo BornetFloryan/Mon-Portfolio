@@ -13,7 +13,7 @@
           <a href="mailto:floryan.bornet@gmail.com" title="Mail"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Mail" /></a>
           <a href="https://www.linkedin.com/in/floryan-bornet/" target="_blank" title="LinkedIn"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" /></a>
           <a href="https://github.com/BornetFloryan" target="_blank" title="GitHub"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" /></a>
-          <a href="/cv.pdf" download title="Télécharger mon CV"><img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="CV" /></a>
+          <a href="https://export-download.canva.com/Jp6sM/DAF9aPJp6sM/178/0-2261273211421675276.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20250520%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250520T092849Z&X-Amz-Expires=34459&X-Amz-Signature=a18dc128947c8a534630e81e8acae6b79663ddb99d1b060b8943cc38d61f1529&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27curriculum_vitae.pdf&response-expires=Tue%2C%2020%20May%202025%2019%3A03%3A08%20GMT" download title="Télécharger mon CV"><img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="CV" /></a>
         </div>
       </div>
     </div>
@@ -95,7 +95,7 @@ body {
 
 .hero h1 {
   margin: 0 0 8px 0;
-  color: #fff;
+  color: #2c3e50;
   font-size: 2.1rem;
   letter-spacing: 1px;
 }
@@ -103,12 +103,12 @@ body {
 .hero h2 {
   margin: 0 0 8px 0;
   font-size: 1.5rem;
-  color: #e3f0fa;
+  color: #2c3e50;
 }
 
 .subtitle {
   font-size: 1.1rem;
-  color: #e3f0fa;
+  color: #2c3e50;
   margin-bottom: 8px;
 }
 
@@ -116,7 +116,7 @@ body {
   margin: 14px 0 0 0;
   display: flex;
   gap: 18px;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .links img {
   width: 32px;
